@@ -1,0 +1,25 @@
+{
+  "name": "derpcord",
+  "version": "1.0.0",
+  "description": "A way to interact with your TF2Autobot!",
+  "main": "discord_bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SachinVenugopalan30/derpcord.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SachinVenugopalan30/derpcord/issues"
+  },
+  "homepage": "https://github.com/SachinVenugopalan30/derpcord#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "steam-totp": "^2.1.1",
+    "steam-user": "^4.20.2",
+    "tf2-item-format": "^5.6.12"
+  }
+}

@@ -1,0 +1,4 @@
+{
+	"prefix": "<<enter the prefix you want to use, such as ? or ! or . >>",
+	"token": "<enter the token that will be used for the discord bot to log in>"
+}

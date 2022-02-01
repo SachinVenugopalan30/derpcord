@@ -1,0 +1,5 @@
+{
+    "accountName": "<steam account name>",
+    "password": "<steam account password>",
+    "sharedSecret": "<shared secret>"
+}
