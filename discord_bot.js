@@ -56,7 +56,9 @@ async function logInEvents() {
                 .setTitle("Error!")
                 .setColor('#ff0000')
                 .setDescription(`I have failed to log on to Steam! Error is ${err}. Retrying in 30 seconds...`);
-            channel_name.send(err_embed);
+            channel_name.send({
+                embeds: [embed]
+            });
             setTimeout(steam_client.logOn, 30000, logInOptions);
         });
     });
